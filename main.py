@@ -7,6 +7,7 @@ import nltk
 import uvicorn
 from fastapi import FastAPI
 import pickle
+from nltk.downloader import download, download_shell 
 
 nltk.download('stopwords')
 nltk.download('punkt')
