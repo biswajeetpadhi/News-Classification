@@ -1,8 +1,4 @@
 wordnet
-wordnet\r
 pros_cons
 reuters
 stopwords
-punkt
-averaged_perceptron_tagger
-omw-1.4
