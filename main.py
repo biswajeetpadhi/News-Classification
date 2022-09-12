@@ -8,6 +8,12 @@ import uvicorn
 from fastapi import FastAPI
 import pickle
 
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 new_sort_model = pickle.load(open("news_sorting.pkl", "rb"))
 
 app = FastAPI(
