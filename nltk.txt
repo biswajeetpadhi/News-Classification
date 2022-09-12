@@ -1,4 +1,5 @@
 wordnet
+wordnet\r
 pros_cons
 reuters
 stopwords
