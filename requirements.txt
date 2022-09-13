@@ -8,3 +8,4 @@ scipy
 scikit-learn
 pickle5
 gunicorn
+tensorflow
