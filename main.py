@@ -9,13 +9,15 @@ from fastapi import FastAPI
 import pickle
 from nltk.downloader import download, download_shell 
 
-nltk.download()
+"""
+
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
-nltk.download('wordnet\r')
+
+"""
 
 new_sort_model = pickle.load(open("news_sorting.pkl", "rb"))
 
