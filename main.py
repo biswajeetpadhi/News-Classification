@@ -8,6 +8,7 @@ import uvicorn
 from fastapi import FastAPI
 import pickle
 from nltk.downloader import download, download_shell 
+import tensorflow.compat.v2 as tf
 
 """
 
