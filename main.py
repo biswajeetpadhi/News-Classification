@@ -9,6 +9,7 @@ from fastapi import FastAPI
 import pickle
 from nltk.downloader import download, download_shell 
 
+nltk.download()
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
