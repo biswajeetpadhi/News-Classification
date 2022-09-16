@@ -7,18 +7,6 @@ import nltk
 import uvicorn
 from fastapi import FastAPI
 import pickle
-from nltk.downloader import download, download_shell 
-import tensorflow as tf
-
-"""
-
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-
-"""
 
 new_sort_model = pickle.load(open("news_sorting.pkl", "rb"))
 
@@ -86,3 +74,4 @@ def predict_news(news: str):
 
 #if __name__=="__main__":
     #uvicorn.run(app, port=8000, host='127.0.0.1')
+
